@@ -1,0 +1,17 @@
+﻿@{
+	ViewBag.Title = $"Numbers From {ViewBag.Start} To {ViewBag.End}";
+}
+
+<h1>@ViewBag.Title</h1>
+
+<ul>
+	@for (int i = ViewBag.Start; i <= ViewBag.End; i++)
+	{
+		<li>@i</li>
+	}
+</ul>
+
+<form> 
+	<input name="end" />
+	<button>Submit</button>
+</form>

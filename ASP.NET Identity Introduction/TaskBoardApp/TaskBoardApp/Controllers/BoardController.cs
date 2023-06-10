@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TaskBoardApp.Data;
-using TaskBoardApp.Models;
+using TaskBoardApp.Models.ViewModels;
 
 namespace TaskBoardApp.Controllers
 {

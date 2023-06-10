@@ -1,8 +1,8 @@
-﻿namespace TaskBoardApp.Models
+﻿namespace TaskBoardApp.Models.ViewModels
 {
     public class TaskViewModel
     {
-        public int Id { get; set; } 
+        public int Id { get; set; }
 
         public string Title { get; set; }
 
